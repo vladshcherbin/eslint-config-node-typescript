@@ -1,0 +1,22 @@
+{
+  "name": "@shcherbin/eslint-config-node-typescript",
+  "description": "Shareable eslint node typescript config",
+  "version": "0.1.0",
+  "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
+  "repository": "vladshcherbin/eslint-config-node-typescript",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
