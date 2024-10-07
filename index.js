@@ -3,7 +3,6 @@ module.exports = {
     'airbnb-base',
     'airbnb-typescript/base'
   ],
-  ignorePatterns: ['graphql.d.ts'],
   plugins: [
     'sort-destructure-keys'
   ],
