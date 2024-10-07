@@ -5,15 +5,19 @@
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/eslint-config-node-typescript",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@typescript-eslint/parser": "^7",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-sort-destructure-keys": "^1.5.0"
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "typescript": "^5.6.2"
   },
   "peerDependencies": {
-    "eslint": "^8.57.0",
-    "typescript": "^5.4.2"
+    "eslint": "^8",
+    "typescript": "^5.6.2"
   },
   "files": [
     "index.js"
