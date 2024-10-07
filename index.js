@@ -10,6 +10,7 @@ module.exports = {
     '@typescript-eslint/comma-dangle': ['error', 'never'],
     '@typescript-eslint/semi': ['error', 'never'],
     'import/order': ['error', { alphabetize: { order: 'asc' } }],
+    'no-await-in-loop': 'off',
     'object-curly-newline': ['error', { consistent: true, multiline: true }],
     'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-imports': ['error', { ignoreDeclarationSort: true }],
